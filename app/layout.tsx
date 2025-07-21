@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: 'MUN ADMIN PANEL',
   description: "Created for Technicia'25",
   generator: 'Jatin Mittal',
+  icons: {
+    icon: '/cumun_logo.png', // or '/favicon.ico' based on your image type
+  },
 };
 
 export default function RootLayout({
