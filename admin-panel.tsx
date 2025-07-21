@@ -314,7 +314,7 @@ const AdminPanel = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/api/registrations")
+      .get("https://mun-panel-backend.onrender.com/api/registrations")
       .then((res) => {
         const sortedData = res.data.sort((a, b) => new Date(a.createdAt) - new Date(b.createdAt))
         setRegistrations(sortedData)
