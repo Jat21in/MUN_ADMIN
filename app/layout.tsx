@@ -9,7 +9,6 @@ export const metadata: Metadata = {
     icon: '/public/cumun_logo.png', // or '/favicon.ico' based on your image type
   },
 };
-
 export default function RootLayout({
   children,
 }: Readonly<{
